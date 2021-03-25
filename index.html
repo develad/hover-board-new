@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hover Board</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Hover Board</h1>
+      <p id="painting-mode">
+        painting mode: off 🎆 <small>Click to change</small>
+      </p>
+      <div id="board-container">
+        <div id="board"></div>
+      </div>
+      <div class="button-container">
+        <button class="button-item" id="claer-screen">
+          Clear screen<i class="fas fa-trash-alt"></i>
+        </button>
+        <button class="button-item" id="random-paint">
+          Random Mosaic Pattern Screen<i class="fas fa-fill-drip"></i>
+        </button>
+      </div>
+      <script src="./app.js"></script>
+    </div>
+  </body>
+</html>
